@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cousine');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+/** NAVBAR CAROUSEL**/
+
+.corousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+
+}
+
+
+
+.carousel-caption {
+    bottom: 45px;
+    /** subir texto inferior**/
+}
+
+.carousel-caption h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: merienda;
+
+}
+
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 2.9;
+    font-family: poppings;
+}
+
+.carousel-caption a {
+    text-transform: uppercase;
+    background: #262626;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+    box-shadow: 26px 28px 19px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+/** NAVBAR **/
+
+.navbar-nav a {
+    font-family: poppins;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-style: bold;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    padding: .2rem 1rem;
+
+}
+
+/** prodctos top**/
+
+#productos-top {
+    
+    padding: 1rem;
+    font-family: merienda;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 4px 3px 2px;
+    background-color: black;
+}
+
+
+/** productos principales**/    
+
+
+.productos-top {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px 15px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "img-top1 img-top2 img-top3"
+    "description1 description2 description3";   
+}
+
+.img-top1 { grid-area: img-top1; }
+.img-top2 { grid-area: img-top2; }
+.img-top3 { grid-area: img-top3; }
+.description1 { grid-area: description1; }
+.description2 { grid-area: description2; }
+.description3 { grid-area: description3; }
+
+.productos-top img{
+    width: 480px;
+    height: 500px;
+    margin: 1px;
+    box-shadow: -17px 8px 23px -14px black;
+    border-radius:2rem;
+}
+
+.productos-top h2 {
+    margin: left 5px;
+    font-family: Candal, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 34px;
+    word-spacing: -1px;
+    color: white;
+    background-color:grey;
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+    border-radius:2rem
+    
+}
+
+
+            /** gallery catalogo**/
+#gallery {
+    margin: 2rem;
+    padding: 1rem;
+    font-family: merienda;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 4px 3px 2px;
+    background-color: black;
+}
+
+.title-catalogo {
+    margin-bottom: 2rem;
+
+}
+
