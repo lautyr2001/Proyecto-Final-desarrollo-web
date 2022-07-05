@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cousine');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:ital,wght@1,300&display=swap');
 
 
 
@@ -12,8 +13,8 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: black;
+body {
+    background-color: #0D0D0D;
 }
 
 /** NAVBAR CAROUSEL**/
@@ -64,11 +65,18 @@ body{
 
 /** NAVBAR **/
 
+/**abajo*/
+nav.abajo{
+    background-color:black;
+}
+
+
 .navbar-nav a {
     font-family: poppins;
     font-size: 18px;
     text-transform: uppercase;
     font-style: bold;
+    
 }
 
 .navbar-light .navbar-brand {
@@ -93,55 +101,47 @@ body{
 
 .navbar-nav {
     text-align: center;
+    
 }
 
 .nav-link {
     padding: .2rem 1rem;
+    
 
 }
 
 /** prodctos top**/
 
 #productos-top {
-    
     padding: 1rem;
     font-family: merienda;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    font-size: 30px;
-    color: white;
-    text-shadow: rgb(0, 0, 0) 4px 3px 2px;
-    background-color: black;
 }
 
 
-/** productos principales**/    
-
-
-.productos-top {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 15px 15px;
-    grid-auto-flow: row;
-    grid-template-areas:
-    "img-top1 img-top2 img-top3"
-    "description1 description2 description3";   
+#productos-top h1 {
+    font-size: 3rem;
+    color: #f79f1b;
+    font-family:'Oswald', sans-serif;
+    letter-spacing: 2.5px;
+    text-shadow: 0px 0px 0 rgb(237, 149, 17),
+        -1px 0px 0 rgb(226, 138, 6),
+        -2px 0px 0 rgb(216, 128, 0),
+        -3px 0px 0 rgb(206, 118, 0),
+        -4px 0px 3px rgba(0, 0, 0, 0.23),
+        -4px 0px 1px rgba(0, 0, 0, 0.5),
+        0px 0px 3px rgba(0, 0, 0, .2);
 }
 
-.img-top1 { grid-area: img-top1; }
-.img-top2 { grid-area: img-top2; }
-.img-top3 { grid-area: img-top3; }
-.description1 { grid-area: description1; }
-.description2 { grid-area: description2; }
-.description3 { grid-area: description3; }
 
-.productos-top img{
+.productos-top img {
     width: 480px;
     height: 500px;
     margin: 1px;
     box-shadow: -17px 8px 23px -14px black;
-    border-radius:2rem;
+    border-radius: 2rem;
 }
 
 .productos-top h2 {
@@ -153,14 +153,13 @@ body{
     font-size: 34px;
     word-spacing: -1px;
     color: white;
-    background-color:grey;
+    background-color: grey;
     text-shadow: rgb(0, 0, 0) 2px 2px 2px;
-    border-radius:2rem
-    
+    border-radius: 2rem
 }
 
 
-            /** gallery catalogo**/
+/** gallery catalogo**/
 #gallery {
     margin: 2rem;
     padding: 1rem;
@@ -170,12 +169,24 @@ body{
     text-align: center;
     font-size: 30px;
     color: white;
-    text-shadow: rgb(0, 0, 0) 4px 3px 2px;
-    background-color: black;
+    background-color: #F79F1B;
+    border-radius: 1rem;
+
 }
 
 .title-catalogo {
     margin-bottom: 2rem;
+    color: black;
 
+}
+
+
+
+/**footer**/
+
+.logo img {
+    max-width: 10rem;
+    max-height: 10rem;
+    padding-bottom: 2rem;
 }
 

@@ -5,13 +5,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/imagenes/favicon-16x16.png">
+    <link rel="shortcut icon" href="/assets/img/logo.jpg">
     <title>FannyPack</title>
 
-
+    <!--script bootstrap-->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <script src="bootstrap/js/jquery.slim.min.js"></script>
     <script src="/assets/img/navbar-hombre2.webp"></script>
+
+    <!--script icons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 
     <link rel="stylesheet" href="style.css">
@@ -84,7 +88,100 @@
                 </a>
             </div>
     </header>
-    
-    </body>
-    
-    
+
+</body>
+
+
+
+
+<footer>
+    <div>
+        <!-- Footer -->
+        <footer class="text-center text-white" style="background-color: #F79F1B">
+            <div class="container">
+                <section class="mt-5">
+                    <div class="row text-center d-flex justify-content-center pt-5">
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="/index.html" class="text-white">Inicio</a>
+                            </h6>
+                        </div>
+
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="/about-us.html" class="text-white">sobre Nosotros</a>
+                            </h6>
+                        </div>
+
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="/productos.html" class="text-white">Catalago</a>
+                            </h6>
+                        </div>
+
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="/contactos.html" class="text-white">ubicacion</a>
+                            </h6>
+                        </div>
+
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="/servicios.html" class="text-white">Tienda</a>
+                            </h6>
+                        </div>
+                    </div>
+                </section>
+
+                <hr class="my-5" />
+                <div class="logo"><img src="/assets/img/logo.jpg" alt=""></div>
+                <!-- Section: Text -->
+                <section class="mb-5">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <p>
+                                Somos un local multimarca dedicado a la venta de indumentaria y accesorios de skate y
+                                surf, fundado en 2022.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            
+                <!-- Section: Social -->
+                <section class="text-center mb-5">  
+                    <a href="https://www.facebook.com/" class="text-white me-5">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="https://twitter.com/" class="text-white me-4">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a href="https://instagram.com/" class="text-white me-4">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://youtube.com/" class="text-white me-4">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                </section>
+
+
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                    © 2022 Copyright: Todos los derechos reservados <br>
+                    <a class="text-white" href="/index.html">Propiedad de grupo FannyPack</a> 
+                </div>
+        </footer>
+
+    </div>
+
+</footer>
+
+
+
+
+
+<script type="text/javascript">
+    window.addEventListener("scroll", function () {
+        var nav = document.querySelector("nav");
+        nav.classList.toggle("abajo", window.scrollY > 0);
+    })
+</script>
