@@ -16,9 +16,10 @@
 }
 
 
+
 body {
     background-color: #0D0D0D;
-    
+
 }
 
 /** NAVBAR CAROUSEL**/
@@ -70,27 +71,27 @@ body {
 /** NAVBAR **/
 
 /**abajo*/
-nav.abajo{
-    background-color:black;
+nav.abajo {
+    background-color: black;
 }
 
 
-.sale li a { 
+.sale li a {
     color: red !important;
-    
+
     font-style: italic;
     text-transform: capitalize;
     text-align: center;
     font-family: 'Rubik Moonrocks', cursive;
-}
 
+}
 
 .navbar-nav a {
     font-family: poppins;
     font-size: 18px;
     text-transform: uppercase;
     font-style: bold;
-    
+
 }
 
 .navbar-light .navbar-brand {
@@ -115,12 +116,12 @@ nav.abajo{
 
 .navbar-nav {
     text-align: center;
-    
+
 }
 
 .nav-link {
     padding: .2rem 1rem;
-    
+
 
 }
 
@@ -138,7 +139,7 @@ nav.abajo{
 #productos-top h1 {
     font-size: 3rem;
     color: #f79f1b;
-    font-family:'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
     letter-spacing: 2.5px;
     text-shadow: 0px 0px 0 rgb(237, 149, 17),
         -1px 0px 0 rgb(226, 138, 6),
@@ -147,7 +148,7 @@ nav.abajo{
         -4px 0px 3px rgba(0, 0, 0, 0.23),
         -4px 0px 1px rgba(0, 0, 0, 0.5),
         0px 0px 3px rgba(0, 0, 0, .2);
-        overflow-y: hidden;
+    overflow-y: hidden;
 }
 
 
@@ -186,6 +187,7 @@ nav.abajo{
     color: white;
     background-color: #F79F1B;
     border-radius: 1rem;
+    overflow-y: hidden;
 
 }
 
@@ -196,6 +198,15 @@ nav.abajo{
 }
 
 
+/**catalogo**/
+
+#catalogo {
+    background: linear-gradient(to bottom, #000000, #110c0f, #1a161a, #201d26, #242632);
+}
+
+#catalogo h1 {
+    color: #f79f1b;
+}
 
 /**footer**/
 
@@ -206,5 +217,28 @@ nav.abajo{
 }
 
 
+#medios-de-pago{
+    background-color:#242636 ;
+    padding-top: 2rem;
+}
 
 
+#medios-de-pago ion-icon {
+    color: white;
+    font-size: 150px;
+}
+
+#medios-de-pago h3 {
+    color: #C21330;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2.5px;
+    text-shadow: black 1px 1px 0, 2px 2px 2px rgba(206,89,55,0);
+}
+
+#medios-de-pago p {
+    font-size: 18px;    
+    font-family:'Oswald', sans-serif ;
+    color: white;
+    text-shadow: black 1px 1px 0, 2px 2px 2px rgba(206,89,55,0);
+}
