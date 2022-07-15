@@ -220,12 +220,14 @@ nav.abajo {
 #medios-de-pago{
     background-color:#242636 ;
     padding-top: 2rem;
+    
 }
 
 
 #medios-de-pago ion-icon {
-    color: white;
+    color:#f79f1b ;
     font-size: 150px;
+    
 }
 
 #medios-de-pago h3 {
@@ -234,6 +236,7 @@ nav.abajo {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2.5px;
     text-shadow: black 1px 1px 0, 2px 2px 2px rgba(206,89,55,0);
+    overflow-y: hidden;
 }
 
 #medios-de-pago p {

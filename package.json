@@ -1,5 +1,5 @@
 {
-  "name": "proyecto-desarrollo-web",
+  "name": "lautaro ribas lautyr2001@gmail.com",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -238,7 +238,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-sass":"node-sass --include-pacth scss sass/style.scss css/style2.css",
+    "build-sass":"node-sass --include-pacth scss sass/main.scss css/style2.css",
     "watch:css":"nodemon -e scss -x \"npm run build-sass\""
   },
   "repository": {
