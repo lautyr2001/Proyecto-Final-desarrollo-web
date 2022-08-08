@@ -291,7 +291,3 @@ animation-duration: 2s;
         overflow-y: hidden;
 }
 
-.img-local {
-    animation:zoomIn;
-    animation-duration: 5s;
-}
