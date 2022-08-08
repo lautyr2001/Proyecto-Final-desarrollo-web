@@ -1,4 +1,5 @@
-.<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="es">
 
 
@@ -13,13 +14,14 @@
 
     <!--palabras claves/keywords-->
     <meta name="description" content="todos nuestros productos, no dudes en sumergirte">
-    <meta name="keywords" content="riñoneras, fannypack, moda, ropa, indumentaria, accesorios, envios, cuotas, calidad ">
+    <meta name="keywords"
+        content="riñoneras, fannypack, moda, ropa, indumentaria, accesorios, envios, cuotas, calidad ">
 
 
     <!--script bootstrap-->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <script src="bootstrap/js/jquery.slim.min.js"></script>
-    <script src="/assets/img/navbar-hombre2.webp"></script>
+    <script src="./bootstrap/js/jquery.slim.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!--script icons-->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -27,6 +29,8 @@
 
 
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-productos.css">
+
 </head>
 <!--titulo de pestaña -->
 
@@ -53,10 +57,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contactos.html">Ubicacion</a>
                 </li>
-                <span class="sale" >
-                    <li class="nav-item" >
+                <span class="sale">
+                    <li class="nav-item">
                         <a class="nav-link" href="servicios.html">SALE!!</a>
-                    </li></span>|
+                    </li>
+                </span>|
         </div>
 
     </nav>
@@ -75,11 +80,11 @@
             <div class="carousel-caption d-none d-md-block">
                 <h2>OFERTAS</h2>
                 <p>Consegui todos estos productos y mas</p>
-                <p><a href="/productos.html">aca!</a></p>
+                <p><a href="./productos.html">aca!</a></p>
             </div>
 
             <div class="carousel-item">
-                <img class="d-block w-100" src="/assets/img/navbar-hombre2.webp"
+                <img class="d-block w-100" src="./assets/img/navbar-hombre2.webp"
                     data-src="holder.js/900x400?theme=industrial" alt="Second slide">
             </div>
             <div class="carousel-caption d-none d-md-block">
@@ -99,43 +104,163 @@
 </header>
 
 
-    <!--gallery-->
+<!--gallery-->
 
+<body>
 
-    <div class="row" class="container" id="gallery">
-        <div class="col-12">
-            <h1 class="d-flex justify-content-center title-catalogo">Catalago</h1>
-        </div>
+    <!--catalogo-->
 
-
-        <div class="imagenes-gallery">
-            <div class="row">
-                <div class=" col-lg-4 col-md-12 mb-4 mb-lg-0 strip">
-                    <img src="assets/img/gallery1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-
-                    <img src="assets/img/gallery2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-                </div>
-
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <img src="assets/img/top3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-
-                    <img src="assets/img/gallery3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
-                </div>
-
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <img src="assets/img/gallery5.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
-
-                    <img src="assets/img/gallery6.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+    <div>
+        <div class="titulo-catalogo">
+            <div class="row" class="container">
+                <div class="col-12">
+                    <h2 class="d-flex justify-content-center">todos nuestros productos</h2>
                 </div>
             </div>
         </div>
-    </div>
+
+        <hr class="my-5">
+
+
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+
+
+            <ol class="carousel-indicators">
+                <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                <li data-target="#multi-item-example" data-slide-to="1"></li>
+
+            </ol>
+
+
+
+
+            <div class="carousel-inner" role="listbox">
+
+
+                <div class="carousel-item active">
+
+                    <div class="col-md-3" style="float:left">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="./assets/img/catalogo/billabong-climb-up1.webp"
+                                alt="billabong-climb-up1">
+                            <div class="card-body">
+                                <h4 class="card-title">Billabong Climb Up</h4>
+                                <p class="card-text">Riñonera Billabong fabricada con material reciclado.
+                                    <br>
+                                    <a class="btn btn-primary">$6999</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3" style="float:left">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="./assets/img/catalogo/vulk-mistic1.webp" alt="vulk-mistic1">
+                            <div class="card-body">
+                                <h4 class="card-title">Vulk Mistic</h4>
+                                <p class="card-text">RIÑONERA VULK MISTIC WAIST BAG
+                                </p>
+                                <a class="btn btn-primary">$2890</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3" style="float:left">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="./assets/img/catalogo/rusty-godsmack.webp"
+                                alt="rusty-godsmack">
+                            <div class="card-body">
+                                <h4 class="card-title">Rusty Godsmack</h4>
+                                <p class="card-text">RIÑONERA RUSTY GODSMACK WAISTED </p>
+                                <a class="btn btn-primary">$10.990</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3" style="float:left">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="./assets/img/catalogo/rusty-fingertip.webp"
+                                alt="rusty-fingertip">
+                            <div class="card-body">
+                                <h4 class="card-title"> Rusty Fingertip</h4>
+                                <p class="card-text">RUSTY FINGERTIP WAISTED BAG MARRON
+                                </p>
+                                <a class="btn btn-primary">10.990</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!--Segundo-->
+                <div class="carousel-item">
+
+                    <div class="col-md-3" style="float:left">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="./assets/img/catalogo/rusty-before.jpg" alt="rusty-before">
+                            <div class="card-body">
+                                <h4 class="card-title">Rusty Before</h4>
+                                <p class="card-text">BEFORE CROWDS BLUE FISH</p>
+                                <a class="btn btn-primary">$2990</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3" style="float:left">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="./assets/img/catalogo/velvet-sun.webp" alt="Velvet Sun">
+                            <div class="card-body">
+                                <h4 class="card-title">Velvet Sun</h4>
+                                <p class="card-text">RIÑONERA VELVET SUN FUCSIA
+                                </p>
+                                <a class="btn btn-primary">$3790</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3" style="float:left">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="./assets/img/catalogo/rusty-bones.webp" alt="rusty-bones">
+                            <div class="card-body">
+                                <h4 class="card-title">Rusty Bones</h4>
+                                <p class="card-text">RUSTY BONES 2 BEANIE SHADOW ARMY
+                                </p>
+                                <a class="btn btn-primary">$5999</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3" style="float:left">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="./assets/img/catalogo/rusty-tunnel.webp" alt="rusty-tunnel">
+                            <div class="card-body">
+                                <h4 class="card-title">Rusty Tunnel</h4>
+                                <p class="card-text">
+                                    GORRO DE LANA TUNNEL RUSTY
+                                </p>
+                                <a class="btn btn-primary">$6990</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
 
 
 
 
 </body>
+
+
+
+
+
+
+
 
 
 <footer>
@@ -147,31 +272,31 @@
                     <div class="row text-center d-flex justify-content-center pt-5">
                         <div class="col-md-2">
                             <h6 class="text-uppercase font-weight-bold">
-                                <a href="/index.html" class="text-white">Inicio</a>
+                                <a href="./index.html" class="text-white">Inicio</a>
                             </h6>
                         </div>
 
                         <div class="col-md-2">
                             <h6 class="text-uppercase font-weight-bold">
-                                <a href="/about-us.html" class="text-white">sobre Nosotros</a>
+                                <a href="./about-us.html" class="text-white">sobre Nosotros</a>
                             </h6>
                         </div>
 
                         <div class="col-md-2">
                             <h6 class="text-uppercase font-weight-bold">
-                                <a href="/productos.html" class="text-white">Catalago</a>
+                                <a href="./productos.html" class="text-white">Catalago</a>
                             </h6>
                         </div>
 
                         <div class="col-md-2">
                             <h6 class="text-uppercase font-weight-bold">
-                                <a href="/contactos.html" class="text-white">ubicacion</a>
+                                <a href="./contactos.html" class="text-white">ubicacion</a>
                             </h6>
                         </div>
 
                         <div class="col-md-2">
                             <h6 class="text-uppercase font-weight-bold">
-                                <a href="/servicios.html" class="text-white">SALE</a>
+                                <a href="./servicios.html" class="text-white">SALE</a>
                             </h6>
                         </div>
                     </div>
@@ -225,3 +350,9 @@
                 nav.classList.toggle("abajo", window.scrollY > 0);
             })
         </script>
+
+        
+<script src="./assets/js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>

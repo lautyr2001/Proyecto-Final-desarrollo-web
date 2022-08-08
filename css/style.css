@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cousine');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
 
 
 * {
@@ -136,7 +136,7 @@ nav.abajo {
 }
 
 
-#productos-top h1 {
+#productos-top h2 {
     font-size: 3rem;
     color: #f79f1b;
     font-family: 'Oswald', sans-serif;
@@ -158,6 +158,7 @@ nav.abajo {
     margin: 1px;
     box-shadow: -17px 8px 23px -14px black;
     border-radius: 2rem;
+
 }
 
 .productos-top h2 {
@@ -198,14 +199,29 @@ nav.abajo {
 }
 
 
-/**catalogo**/
+/**sale**/
 
-#catalogo {
+#sale {
     background: linear-gradient(to bottom, #000000, #110c0f, #1a161a, #201d26, #242632);
+
 }
 
-#catalogo h1 {
+
+#sale h2 {   
+    font-size: 5rem;
     color: #f79f1b;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2.5px;
+    text-shadow: 0px 0px 0 rgb(237, 149, 17),
+        -1px 0px 0 rgb(226, 138, 6),
+        -2px 0px 0 rgb(216, 128, 0),
+        -3px 0px 0 rgb(206, 118, 0),
+        -4px 0px 3px rgba(0, 0, 0, 0.23),
+        -4px 0px 1px rgba(0, 0, 0, 0.5),
+        0px 0px 3px rgba(0, 0, 0, .2);
+        overflow-y: hidden;
+    
+
 }
 
 /**footer**/
@@ -220,6 +236,8 @@ nav.abajo {
 #medios-de-pago{
     background-color:#242636 ;
     padding-top: 2rem;
+    animation: pulse; 
+    animation-duration: 2s;
     
 }
 
@@ -227,6 +245,8 @@ nav.abajo {
 #medios-de-pago ion-icon {
     color:#f79f1b ;
     font-size: 150px;
+    
+
     
 }
 
@@ -239,9 +259,39 @@ nav.abajo {
     overflow-y: hidden;
 }
 
-#medios-de-pago p {
-    font-size: 18px;    
+#medios-de-pago p {    font-size: 18px;    
     font-family:'Oswald', sans-serif ;
     color: white;
     text-shadow: black 1px 1px 0, 2px 2px 2px rgba(206,89,55,0);
+}
+
+
+
+/* ubicacion*/
+.mapa iframe {
+text-align: center; 
+animation: zoomIn ;
+animation-duration: 2s;
+
+}
+
+#ubicacion h2 {
+    margin: 1rem;
+    font-size: 3rem;
+    color: #f79f1b;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2.5px;
+    text-shadow: 0px 0px 0 rgb(237, 149, 17),
+        -1px 0px 0 rgb(226, 138, 6),
+        -2px 0px 0 rgb(216, 128, 0),
+        -3px 0px 0 rgb(206, 118, 0),
+        -4px 0px 3px rgba(0, 0, 0, 0.23),
+        -4px 0px 1px rgba(0, 0, 0, 0.5),
+        0px 0px 3px rgba(0, 0, 0, .2);
+        overflow-y: hidden;
+}
+
+.img-local {
+    animation:zoomIn;
+    animation-duration: 5s;
 }

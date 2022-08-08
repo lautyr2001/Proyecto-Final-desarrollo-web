@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cousine');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+
+.form { 
+    margin-bottom: 7rem;
+
+}
+
+
+
+
+.form h2 {
+    margin-top: 4rem;
+    font-size: 3rem;
+    color: #f79f1b;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2.5px;
+    text-shadow: 0px 0px 0 rgb(237, 149, 17),
+        -1px 0px 0 rgb(226, 138, 6),
+        -2px 0px 0 rgb(216, 128, 0),
+        -3px 0px 0 rgb(206, 118, 0),
+        -4px 0px 3px rgba(0, 0, 0, 0.23),
+        -4px 0px 1px rgba(0, 0, 0, 0.5),
+        0px 0px 3px rgba(0, 0, 0, .2);
+    overflow-y: hidden;
+}
+
+.form h3 {
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Bebas Neue';
+    margin-bottom: 3rem;
+}
+
+.form-group label {
+    color: white;
+}
+
+.btn {
+    color: white;
+}

@@ -1,4 +1,5 @@
-.<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="es">
 
 
@@ -13,13 +14,14 @@
 
     <!--palabras claves/keywords-->
     <meta name="description" content="donde encontarnos, google maps. veni a conocernos y llevate cositas hermosas">
-    <meta name="keywords" content="riñoneras, fannypack, moda, ropa, indumentaria, accesorios, envios, cuotas, calidad ">
+    <meta name="keywords"
+        content="riñoneras, fannypack, moda, ropa, indumentaria, accesorios, envios, cuotas, calidad ">
 
 
     <!--script bootstrap-->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <script src="bootstrap/js/jquery.slim.min.js"></script>
-    <script src="/assets/img/navbar-hombre2.webp"></script>
+    <script src="./bootstrap/js/jquery.slim.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!--script icons-->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -27,6 +29,11 @@
 
 
     <link rel="stylesheet" href="./css/style.css">
+
+
+
+
+
 </head>
 <!--titulo de pestaña -->
 
@@ -77,20 +84,20 @@
                 <div class="carousel-caption d-none d-md-block">
                     <h2>OFERTAS</h2>
                     <p>Consegui todos estos productos y mas</p>
-                    <p><a href="/productos.html">aca!</a></p>
+                    <p><a href="./productos.html">aca!</a></p>
                 </div>
 
                 <div class="carousel-item">
                     <img class="d-block w-100" src="./assets/img/image2-navbar.webp"
                         data-src="holder.js/900x400?theme=industrial" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
-                </div>
+                    <div class="carousel-caption d-none d-md-block">
                     </div>
+                </div>
 
                 <div class="carousel-caption d-none d-md-block">
                 </div>
 
-                
+
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span></a>
@@ -98,92 +105,138 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-            
+
             </div>
-    </div>
+        </div>
 </header>
 
-    <footer>
-        <div>
-            <!-- Footer -->
-            <footer class="text-center text-white" style="background-color: #F79F1B">
-                <div class="container">
-                    <section class="mt-5">
-                        <div class="row text-center d-flex justify-content-center pt-5">
-                            <div class="col-md-2">
-                                <h6 class="text-uppercase font-weight-bold">
-                                    <a href="/index.html" class="text-white">Inicio</a>
-                                </h6>
-                            </div>
 
-                            <div class="col-md-2">
-                                <h6 class="text-uppercase font-weight-bold">
-                                    <a href="/about-us.html" class="text-white">sobre Nosotros</a>
-                                </h6>
-                            </div>
-
-                            <div class="col-md-2">
-                                <h6 class="text-uppercase font-weight-bold">
-                                    <a href="/productos.html" class="text-white">Catalago</a>
-                                </h6>
-                            </div>
-
-                            <div class="col-md-2">
-                                <h6 class="text-uppercase font-weight-bold">
-                                    <a href="/contactos.html" class="text-white">ubicacion</a>
-                                </h6>
-                            </div>
-
-                            <div class="col-md-2">
-                                <h6 class="text-uppercase font-weight-bold">
-                                    <a href="/servicios.html" class="text-white">SALE</a>
-                                </h6>
-                            </div>
-                        </div>
-                    </section>
-
-                    <hr class="my-5" />
-                    <div class="logo"><img src="/assets/img/logo.jpg" alt=""></div>
-                    <!-- Section: Text -->
-                    <section class="mb-5">
-                        <div class="row d-flex justify-content-center">
-                            <div class="col-lg-8">
-                                <p>
-                                    Somos un local multimarca dedicado a la venta de indumentaria y accesorios de skate
-                                    y
-                                    surf, fundado en 2022.
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!-- Section: Social -->
-                    <section class="text-center mb-5">
-                        <a href="https://www.facebook.com/" class="text-white me-5">
-                            <ion-icon name="logo-facebook"></ion-icon>
-                        </a>
-                        <a href="https://twitter.com/" class="text-white me-4">
-                            <ion-icon name="logo-twitter"></ion-icon>
-                        </a>
-                        <a href="https://instagram.com/" class="text-white me-4">
-                            <ion-icon name="logo-instagram"></ion-icon>
-                        </a>
-                        <a href="https://youtube.com/" class="text-white me-4">
-                            <ion-icon name="logo-youtube"></ion-icon>
-                        </a>
-                    </section>
+<body>
 
 
-                    <!-- Copyright -->
-                    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-                        © 2022 Copyright: Todos los derechos reservados <br>
-                        <a class="text-white" href="/index.html">Propiedad de grupo FannyPack</a>
-                    </div>
-            </footer>
-
+    <div class="container" id="ubicacion">
+        <div class="col-12">
+            <h2 class="d-flex justify-content-center">DONDE ENCONTRARNOS</h2>
         </div>
 
-    </footer>
+        <div class="row" class="container" class="mapa">
+
+            <div class="col-12">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.9513159727203!2d-58.402496584942575!3d-34.78200088041367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd31e0531fe69%3A0x206d6afbd49fe6bd!2sEstadio%20Alfredo%20Beranger!5e0!3m2!1ses-419!2sar!4v1659654246949!5m2!1ses-419!2sar"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    
+
+    <div class="col-12">
+        <h2 class="d-flex justify-content-center"> PODES PASAR A VISITARNOS...</h2>
+    </div>
+
+</div>
+
+    <div class="container fotos-local">
+        <div class="row ">
+            <div class="col-6">
+                <img src="./assets/img/foto local.jpg" height="85%" width="100%" alt="foto del local">
+
+            </div>
+            <div class="col-6 img-local">
+                <img src="./assets/img/fotos-local2.jpg" height="85%" width="100%" alt="foto del local 2">
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+
+
+
+
+<footer>
+    <div>
+        <!-- Footer -->
+        <footer class="text-center text-white" style="background-color: #F79F1B">
+            <div class="container">
+                <section class="mt-5">
+                    <div class="row text-center d-flex justify-content-center pt-5">
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="./index.html" class="text-white">Inicio</a>
+                            </h6>
+                        </div>
+
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="./about-us.html" class="text-white">sobre Nosotros</a>
+                            </h6>
+                        </div>
+
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="./productos.html" class="text-white">Catalago</a>
+                            </h6>
+                        </div>
+
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="./contactos.html" class="text-white">ubicacion</a>
+                            </h6>
+                        </div>
+
+                        <div class="col-md-2">
+                            <h6 class="text-uppercase font-weight-bold">
+                                <a href="./servicios.html" class="text-white">SALE</a>
+                            </h6>
+                        </div>
+                    </div>
+                </section>
+
+                <hr class="my-5" />
+                <div class="logo"><img src="/assets/img/logo.jpg" alt=""></div>
+                <!-- Section: Text -->
+                <section class="mb-5">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <p>
+                                Somos un local multimarca dedicado a la venta de indumentaria y accesorios de skate
+                                y
+                                surf, fundado en 2022.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Section: Social -->
+                <section class="text-center mb-5">
+                    <a href="https://www.facebook.com/" class="text-white me-5">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="https://twitter.com/" class="text-white me-4">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a href="https://instagram.com/" class="text-white me-4">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://youtube.com/" class="text-white me-4">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                </section>
+
+
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                    © 2022 Copyright: Todos los derechos reservados <br>
+                    <a class="text-white" href="./index.html">Propiedad de grupo FannyPack</a>
+                </div>
+        </footer>
+
+    </div>
+
+</footer>
 
 
 
@@ -191,9 +244,14 @@
 
 
 
-    <script type="text/javascript">
-        window.addEventListener("scroll", function () {
-            var nav = document.querySelector("nav");
-            nav.classList.toggle("abajo", window.scrollY > 0);
-        })
-    </script>
+<script type="text/javascript">
+    window.addEventListener("scroll", function () {
+        var nav = document.querySelector("nav");
+        nav.classList.toggle("abajo", window.scrollY > 0);
+    })
+</script>
+
+<script src="./assets/js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>

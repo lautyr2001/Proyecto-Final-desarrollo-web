@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cousine');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.titulo-catalogo {
+    margin-top: 3rem;
+    padding: 3rem;
+    font-family: merienda;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.titulo-catalogo h2 {
+    font-size: 5rem;
+    color: #f79f1b;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2.5px;
+    text-shadow: 0px 0px 0 rgb(237, 149, 17),
+        -1px 0px 0 rgb(226, 138, 6),
+        -2px 0px 0 rgb(216, 128, 0),
+        -3px 0px 0 rgb(206, 118, 0),
+        -4px 0px 3px rgba(0, 0, 0, 0.23),
+        -4px 0px 1px rgba(0, 0, 0, 0.5),
+        0px 0px 3px rgba(0, 0, 0, .2);
+    overflow-y: hidden;
+}
+
+.btn-primary {
+background-color: #C21330;
+border: black;
+}
+
+
